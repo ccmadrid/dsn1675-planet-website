@@ -25,7 +25,51 @@ body {
   padding: 0;
 }
 
-img {
-  display: block;
-  width: 100%;
+.header{
+    margin: 0;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav{
+    margin: 1em 0;
+    padding: 0;
+    list-style: type;
+}
+
+.nav a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #0074D9;
+}
+
+@media only screen and (min-width: 20em){
+    
+    .nav {
+        text-align: center;
+    }
+    .nav li {
+        display: inline-block;
+    }
+    
+}
+
+@media only screen and (min-width: 40em){
+    
+    .title {
+        text-align: left;
+        float: left;
+    }
+    
+    .nav {
+        float: left;
+    }
+    
 }
