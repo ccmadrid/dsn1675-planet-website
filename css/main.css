@@ -50,7 +50,7 @@ body {
     color: #0074D9;
 }
 
-@media only screen and (min-width: 20em){
+@media only screen and (min-width: 25em){
     
     .nav {
         text-align: center;
