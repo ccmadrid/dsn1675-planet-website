@@ -20,6 +20,11 @@ html {
   box-sizing: inherit;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -50,6 +55,7 @@ body {
     color: #0074D9;
 }
 
+
 @media only screen and (min-width: 25em){
     
     .nav {
@@ -61,7 +67,7 @@ body {
     
 }
 
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 45em){
     
     .title {
         text-align: left;
@@ -73,3 +79,9 @@ body {
     }
     
 }
+
+@media only screen and (min-width: 65em){
+    
+    
+}
+
