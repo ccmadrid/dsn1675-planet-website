@@ -30,7 +30,7 @@ body {
   padding: 0;
 }
 
-.header{
+.header {
     margin: 0;
     background-color: #ccc;
     overflow: hidden;
@@ -42,7 +42,7 @@ body {
     text-align: center;
 }
 
-.nav{
+.nav {
     margin: 1em 0;
     padding: 0;
     list-style: type;
