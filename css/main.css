@@ -77,14 +77,16 @@ body {
 }
 
 @media only screen and (min-width: 45em){
-    .nav {
-        float: left;
+    .title {
+        text-align: left;
     }
     
+    .nav {
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 65em){
-    
     
 }
 
