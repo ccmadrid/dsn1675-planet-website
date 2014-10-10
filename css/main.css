@@ -32,7 +32,7 @@ body {
 
 .header {
     margin: 0;
-    background-color: #ccc;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -49,19 +49,18 @@ body {
 
 .nav a {
     display: block;
-    padding: 0;
     text-decoration: none;
     color: #0074D9;
 }
 
-.figs {
+.light-grey {
     background-color: #efefef
 }
-.characteristics {
+.med-grey {
     background-color: #e2e2e2;
 }
 
-.footer {
+.dark-grey {
     background-color: #ccc;
 }
 
