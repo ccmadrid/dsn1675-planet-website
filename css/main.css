@@ -54,7 +54,16 @@ body {
     color: #0074D9;
 }
 
+.figs {
+    background-color: #efefef
+}
+.characteristics {
+    background-color: #e2e2e2;
+}
 
+.footer {
+    background-color: #ccc;
+}
 
 .deck {
     background-color: #e2e2e2;
