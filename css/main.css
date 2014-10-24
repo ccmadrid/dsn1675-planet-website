@@ -29,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /*=======================ACCESSIBILITY========================*/
 a:focus {
     outline: 3px solid #000;
@@ -60,6 +61,7 @@ a:active {
     top: 0;
 }
 /*=======================ACCESSIBILITY========================*/
+
 .header {
     margin: 0;
     padding: 0;
