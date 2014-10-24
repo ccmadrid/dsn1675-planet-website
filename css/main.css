@@ -29,7 +29,17 @@ body {
   margin: 0;
   padding: 0;
 }
+/*=======================ACCESSIBILITY========================*/
+a:focus {
+    outline: 3px solid #000;
+}
 
+a:hover,
+a:active {
+    /*It's not okay to remove this for keyboard users*/
+ /*outline: none*/;
+}
+/*=======================ACCESSIBILITY========================*/
 .header {
     margin: 0;
     padding: 0;
