@@ -82,6 +82,18 @@ body {
         display: inline-block;
     }
     
+    .footer {
+        text-align: center;
+    }
+    
+    .footer a:before {
+        content: " · ";
+    }
+     
+    .footer li:first-child a:before {
+        content: none;
+    }
+    
 }
 
 @media only screen and (min-width: 45em){
@@ -91,6 +103,14 @@ body {
     
     .nav {
         text-align: left;
+    }
+
+    .footer {
+        text-align: left;
+    }
+    
+    .footer nav{
+        float: right;
     }
 }
 
