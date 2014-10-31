@@ -29,6 +29,83 @@ body {
   margin: 0;
   padding: 0;
 }
+/*=======================FORMS========================*/
+label {
+    float: none;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.radio {
+    display: block;
+    padding: 0 1em 0 0
+}
+
+input + label {
+    display: inline-block;
+}
+
+
+.submit {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #eeeeee;   
+}
+
+button:active {
+    background-color: #d2d2d2;
+}
+
+button:focus {
+    outline: 3px solid #000;
+}
+
+.field {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 45em;
+}
+
+.field:focus {
+    outline: 3px solid #000;
+}
+
+.input-field{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+}
+textarea {
+    display: block;
+    margin: 0 auto;
+    resize: none;
+    width: 100%;
+    height: 14em;
+    border: 1px solid #ccc;
+}
+
+textarea:focus {
+    outline: 3px solid #000;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: spin-button;
+    opacity: 1; 
+}
 
 /*=======================ACCESSIBILITY========================*/
 a:focus {
@@ -61,6 +138,11 @@ a:active {
     top: 0;
 }
 /*=======================ACCESSIBILITY========================*/
+
+.center {
+    text-align: center;
+}
+
 
 .header {
     margin: 0;
@@ -126,6 +208,9 @@ a:active {
         content: none;
     }
     
+    .radio {
+    float: left;
+}
 }
 
 @media only screen and (min-width: 45em){
