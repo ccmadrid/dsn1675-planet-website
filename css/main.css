@@ -41,7 +41,7 @@ fieldset {
 
 .radio {
     display: block;
-    padding: 0 1em 0 0
+    padding: 0 1em 0 0;
 }
 
 input + label {
