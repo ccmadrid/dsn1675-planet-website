@@ -107,6 +107,13 @@ input[type=number]::-webkit-outer-spin-button {
     opacity: 1; 
 }
 
+.return {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /*=======================ACCESSIBILITY========================*/
 a:focus {
     outline: 3px solid #000;
