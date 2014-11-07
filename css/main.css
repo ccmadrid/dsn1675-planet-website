@@ -6,7 +6,7 @@
 
 html {
   margin: 0;
-  padding: 0;
+  padding: 0 ;
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -27,6 +27,12 @@ img {
 body {
   margin: 0;
   padding: 0;
+}
+
+article {
+    margin: 2em;
+    border-radius: 15px;
+    overflow: hidden;
 }
 /*=======================FORMS========================*/
 label {
@@ -170,6 +176,11 @@ a:active {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border-radius: 0 0 15px 15px;
+}
+
+.footer {
+    border-radius: 15px 15px 0 0;
 }
 
 .title {
