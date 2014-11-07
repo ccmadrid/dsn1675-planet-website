@@ -167,12 +167,11 @@ a:active {
     text-align: center;
 }
 
-.nav a, .nav a:link, .nav a:visited {
+.nav a, .nav a:link, .nav a:visited, {
     display: block;
-    color: #0074D9;
+    color: #6B2400;
     text-decoration: none;
 }
-
 
 .nav a:hover,
 .nav a:focus,
@@ -180,7 +179,7 @@ a:active {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #0074D9;  
+    background-color: #6B2400;  
     color: #fff;
 }
 
@@ -219,19 +218,20 @@ a:active {
 }
 
 .light-grey {
-    background-color: #efefef
+    background-color: #EBD6CC
 }
 .med-grey {
-    background-color: #e2e2e2;
+    background-color: #E0C2B2;
 }
 
 .dark-grey {
-    background-color: #ccc;
+    background-color: #D6AD99;
 }
 
-.deck {
-    background-color: #e2e2e2;
-    text-align: center;
+.top-shadow {
+-webkit-box-shadow: 0px -2px 7px -2px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px -2px 7px -2px rgba(0,0,0,0.4);
+box-shadow: 0px -2px 7px -2px rgba(0,0,0,0.4);
 }
 
 .nav li {
