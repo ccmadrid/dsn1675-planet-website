@@ -13,6 +13,12 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+    
+    background-image: url(../images/stars.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
 }
 
 *, *:before, *:after {
@@ -22,6 +28,7 @@ html {
 img {
     display: block;
     width: 100%;
+    border-radius: 5px;
 }
 
 body {
@@ -30,9 +37,12 @@ body {
 }
 
 article {
-    margin: 2em;
+    margin: 2em 4em;
     border-radius: 15px;
     overflow: hidden;
+    background-color: #fff;
+    border: 2px solid #fff;
+    
 }
 /*=======================FORMS========================*/
 label {
@@ -59,8 +69,10 @@ input + label {
 }
 
 button {
+    padding: 0.5em;
     cursor: pointer;
     border: 1px solid #ccc;
+    border-radius: 5px
 }
 
 button:hover {
@@ -173,14 +185,20 @@ a:active {
 }
 
 .header {
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border-radius: 0 0 15px 15px;
+    border: 2px linear(#fff,#000) #fff;
+    border-top: none;
+    border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 .footer {
     border-radius: 15px 15px 0 0;
+    border-bottom: none;
+    border-image: linear-gradient(to top, white, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 .title {
@@ -254,7 +272,7 @@ a:active {
     .nav {
         text-align: left;
     }
-
+    
     .footer {
         text-align: left;
     }
